@@ -6,7 +6,7 @@ const productRoute = require("./routes/productRoute");
 const offerRoute = require("./routes/offerRoute");
 const userRoute = require("./routes/userRoute");
 const bookmarksRoute = require("./routes/bookmarksRoute")
-const connectDB = require("./database/database");
+const connectDB = require("./database/database.js");
 
 dotenv.config()
 app.use(express.json())
